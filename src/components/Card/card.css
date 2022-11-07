@@ -1,0 +1,58 @@
+ 
+.card_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(0,0,0, .05);
+}
+.card_wrapper:last-child {
+
+    border-bottom: 0;
+}
+.card__location {
+    gap: 10px;
+}
+
+.card__rightcontent, .card__location  {
+    display: flex;
+    justify-content: flex-start;
+}
+.card__location > img {
+    align-self: center;
+
+}
+.card__map, .card__map:link, .card__map:visited  {
+    color: gray;
+}
+.card__map:hover  {
+    color:#F55A5A;
+}
+.card__rightcontent     {
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.card__country {
+    text-transform: uppercase;
+}
+
+.card__details > h1 {
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.card__date{
+    font-weight: 300;
+  
+
+}
+.card__details > p{
+    font-weight: 300;
+
+}
